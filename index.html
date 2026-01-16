@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Repair in Los Angeles — Same-Day Service, Licensed Technicians</title>
+  <meta
+    name="description"
+    content="Professional HVAC repair and maintenance in Los Angeles and nearby areas. AC repair, furnace repair, mini-split service, thermostat troubleshooting. Fast diagnostics, clean work, warranty."
+  />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+</head>
+
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors">
+<!-- Top bar -->
+<div class="border-b border-slate-200 bg-slate-100 dark:border-white/10 dark:bg-slate-950/90">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
+    <div class="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+          <span class="inline-flex items-center gap-2">
+            <span class="h-2 w-2 rounded-full bg-emerald-500 dark:bg-emerald-400"></span>
+            Same-day availability • Los Angeles & nearby
+          </span>
+      <span class="hidden sm:inline">|</span>
+      <span class="hidden sm:inline">Licensed • Insured • Professional technicians</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="tel:+13238704790" class="text-sm font-semibold text-slate-900 hover:text-slate-700 dark:text-white dark:hover:text-slate-200"
+      >Call: (323) 870-4790</a
+      >
+      <a
+        href="#quote"
+        class="hidden rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200 sm:inline-block"
+      >
+        Get a Quote
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
+  <div class="flex items-center justify-between">
+    <a href="#" class="flex items-center gap-3">
+      <div class="grid h-10 w-10 place-items-center rounded-2xl bg-slate-200 ring-1 ring-slate-300 dark:bg-white/10 dark:ring-white/10">
+        <span class="text-lg">❄️</span>
+      </div>
+      <div>
+        <div class="text-base font-bold leading-tight">HVAC Repair</div>
+        <div class="text-xs text-slate-500 dark:text-slate-400">Cooling • Heating • Mini-Split</div>
+      </div>
+    </a>
+
+    <nav class="hidden items-center gap-8 text-sm text-slate-600 dark:text-slate-300 md:flex">
+      <a href="#services" class="hover:text-slate-900 dark:hover:text-white">Services</a>
+      <a href="#process" class="hover:text-slate-900 dark:hover:text-white">How It Works</a>
+      <a href="#areas" class="hover:text-slate-900 dark:hover:text-white">Service Areas</a>
+      <a href="#faq" class="hover:text-slate-900 dark:hover:text-white">FAQ</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <!-- Theme toggle -->
+      <button
+        id="theme-toggle"
+        type="button"
+        class="rounded-full p-2 text-slate-400 hover:text-slate-600 dark:text-slate-400 dark:hover:text-white transition-colors"
+        aria-label="Toggle theme"
+      >
+        <!-- Sun icon (shown in dark mode) -->
+        <svg id="sun-icon" class="hidden dark:block h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <!-- Moon icon (shown in light mode) -->
+        <svg id="moon-icon" class="block dark:hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+      </button>
+      <a
+        href="#quote"
+        class="rounded-full bg-emerald-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-emerald-300"
+      >
+        Schedule Service
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="relative">
+  <!-- Unsplash hero background -->
+  <div class="absolute inset-0 -z-10">
+    <img
+      class="h-full w-full object-cover opacity-20 dark:opacity-35"
+      src="https://source.unsplash.com/1600x900/?hvac,air-conditioning,technician"
+      alt="HVAC technician"
+      loading="lazy"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-50 via-slate-50/70 to-slate-50 dark:from-slate-950 dark:via-slate-950/70 dark:to-slate-950"></div>
+  </div>
+
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-12 lg:gap-12 lg:px-8 lg:py-20">
+    <div class="lg:col-span-7">
+      <div
+        class="inline-flex items-center gap-2 rounded-full bg-slate-200 px-4 py-2 text-xs text-slate-700 ring-1 ring-slate-300 dark:bg-white/10 dark:text-slate-200 dark:ring-white/10"
+      >
+        <span class="h-2 w-2 rounded-full bg-emerald-500 dark:bg-emerald-400"></span>
+        Diagnostics • Repair • Preventive Maintenance
+      </div>
+
+      <h1 class="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
+        HVAC Repair in Los Angeles —
+        <span class="text-emerald-600 dark:text-emerald-300">fast</span>, <span class="text-emerald-600 dark:text-emerald-300">clean</span>, and
+        <span class="text-emerald-600 dark:text-emerald-300">done right</span>
+      </h1>
+
+      <p class="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 dark:text-slate-300">
+        AC not cooling? Furnace won't heat? Mini-split leaking or making noise? We run real diagnostics (not guesses),
+        explain what's causing the issue, and fix it with professional care and clear communication.
+      </p>
+
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <a
+          href="#quote"
+          class="rounded-full bg-slate-900 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
+        >
+          Book a Technician
+        </a>
+        <a
+          href="tel:+13238704790"
+          class="rounded-full bg-slate-200 px-6 py-3 text-center text-sm font-semibold text-slate-900 ring-1 ring-slate-300 hover:bg-slate-300 dark:bg-white/10 dark:text-white dark:ring-white/10 dark:hover:bg-white/15"
+        >
+          Call Now
+        </a>
+      </div>
+
+      <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <div class="rounded-2xl bg-white p-4 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+          <div class="text-2xl font-bold">Same-day</div>
+          <div class="mt-1 text-xs text-slate-500 dark:text-slate-400">often available</div>
+        </div>
+        <div class="rounded-2xl bg-white p-4 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+          <div class="text-2xl font-bold">OEM</div>
+          <div class="mt-1 text-xs text-slate-500 dark:text-slate-400">quality parts</div>
+        </div>
+        <div class="rounded-2xl bg-white p-4 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+          <div class="text-2xl font-bold">Warranty</div>
+          <div class="mt-1 text-xs text-slate-500 dark:text-slate-400">on workmanship</div>
+        </div>
+        <div class="rounded-2xl bg-white p-4 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+          <div class="text-2xl font-bold">Clean</div>
+          <div class="mt-1 text-xs text-slate-500 dark:text-slate-400">respect your home</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quote form -->
+    <div id="quote" class="lg:col-span-5">
+      <div class="rounded-3xl bg-white p-6 ring-1 ring-slate-200 shadow-lg dark:bg-white/5 dark:ring-white/10 dark:shadow-none backdrop-blur">
+        <h2 class="text-xl font-bold">Request Service</h2>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+          Tell us what's going on — we'll call/text to confirm the details and the earliest availability.
+        </p>
+
+        <form class="mt-6 space-y-4">
+          <div>
+            <label class="text-xs text-slate-600 dark:text-slate-300">Full Name</label>
+            <input
+              class="mt-1 w-full rounded-2xl border border-slate-300 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:border-white/10 dark:bg-slate-950/60 dark:text-white dark:placeholder:text-slate-500 dark:focus:ring-emerald-400"
+              placeholder="Your name"
+              type="text"
+            />
+          </div>
+
+          <div>
+            <label class="text-xs text-slate-600 dark:text-slate-300">Phone</label>
+            <input
+              class="mt-1 w-full rounded-2xl border border-slate-300 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:border-white/10 dark:bg-slate-950/60 dark:text-white dark:placeholder:text-slate-500 dark:focus:ring-emerald-400"
+              placeholder="(xxx) xxx-xxxx"
+              type="tel"
+            />
+          </div>
+
+          <div>
+            <label class="text-xs text-slate-600 dark:text-slate-300">Issue Details</label>
+            <textarea
+              class="mt-1 min-h-[110px] w-full rounded-2xl border border-slate-300 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:border-white/10 dark:bg-slate-950/60 dark:text-white dark:placeholder:text-slate-500 dark:focus:ring-emerald-400"
+              placeholder="Example: AC blows warm, thermostat error, strange noise, leak, short cycling..."
+            ></textarea>
+          </div>
+
+          <button
+            type="button"
+            class="w-full rounded-2xl bg-emerald-500 px-5 py-3 text-sm font-semibold text-white hover:bg-emerald-600 dark:bg-emerald-400 dark:text-slate-950 dark:hover:bg-emerald-300"
+          >
+            Submit Request
+          </button>
+
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            By submitting, you agree to receive a call/text about your service request.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust -->
+<section class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+  <div class="grid gap-6 rounded-3xl bg-white p-8 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none lg:grid-cols-12 lg:items-center">
+    <div class="lg:col-span-8">
+      <h3 class="text-2xl font-bold">Real diagnostics — no guessing</h3>
+      <p class="mt-2 text-slate-600 dark:text-slate-300">
+        We check electrical components, capacitors, control boards, sensors, airflow, drainage, and (when applicable)
+        refrigerant pressures and signs of leaks. Then we explain the root cause and the best fix.
+      </p>
+    </div>
+    <div class="lg:col-span-4">
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+        <div class="rounded-2xl bg-slate-100 p-4 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+          <div class="text-sm font-semibold">🔧 Skilled technicians</div>
+          <div class="mt-1 text-xs text-slate-500 dark:text-slate-400">System-first approach</div>
+        </div>
+        <div class="rounded-2xl bg-slate-100 p-4 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+          <div class="text-sm font-semibold">🧼 Clean workmanship</div>
+          <div class="mt-1 text-xs text-slate-500 dark:text-slate-400">Protect floors, clean-up after</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+  <div class="flex items-end justify-between gap-6">
+    <div>
+      <h2 class="text-3xl font-extrabold">HVAC Services</h2>
+      <p class="mt-2 max-w-2xl text-slate-600 dark:text-slate-300">
+        Repair, maintenance, and troubleshooting to keep your system quiet, efficient, and reliable.
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Card 1 -->
+    <div class="group overflow-hidden rounded-3xl bg-white ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <img
+        src="https://source.unsplash.com/900x600/?air-conditioner,maintenance"
+        alt="AC repair"
+        class="h-44 w-full object-cover opacity-90 transition group-hover:opacity-100"
+        loading="lazy"
+      />
+      <div class="p-6">
+        <div class="text-lg font-bold">Air Conditioner Repair (AC)</div>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Not cooling, short cycling, noise/vibration, freezing, leaks, odors.</p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Compressor</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Capacitor</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Leak checks</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="group overflow-hidden rounded-3xl bg-white ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <img
+        src="https://source.unsplash.com/900x600/?furnace,heating,technician"
+        alt="Furnace repair"
+        class="h-44 w-full object-cover opacity-90 transition group-hover:opacity-100"
+        loading="lazy"
+      />
+      <div class="p-6">
+        <div class="text-lg font-bold">Furnace Repair</div>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Won't start, cold air, smells, error codes, ignition issues.</p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Ignitor</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Flame sensor</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Safety switches</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="group overflow-hidden rounded-3xl bg-white ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <img
+        src="https://source.unsplash.com/900x600/?mini-split,air-conditioning"
+        alt="Mini-split repair"
+        class="h-44 w-full object-cover opacity-90 transition group-hover:opacity-100"
+        loading="lazy"
+      />
+      <div class="p-6">
+        <div class="text-lg font-bold">Mini-Split Service & Repair</div>
+        <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Leaks, weak airflow, noise, temperature swings, system errors.</p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Drain line</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Control board</span>
+          <span class="rounded-full bg-slate-100 px-3 py-1 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">Fan motor</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="rounded-3xl bg-white p-6 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <div class="text-lg font-bold">Thermostats & Controls</div>
+      <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Wiring, calibration, replacements, Wi-Fi setup, scheduling issues.</p>
+      <ul class="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-300">
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> power & wiring checks</li>
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> proper mode configuration</li>
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> cooling/heating cycle testing</li>
+      </ul>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="rounded-3xl bg-white p-6 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <div class="text-lg font-bold">Preventive Maintenance (Tune-Up)</div>
+      <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Reduce breakdown risk, improve efficiency, extend system life.</p>
+      <ul class="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-300">
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> condenser/coil cleaning (as accessible)</li>
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> drain line inspection & clearing</li>
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> electrical component check</li>
+      </ul>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="rounded-3xl bg-white p-6 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <div class="text-lg font-bold">High Utility Bill Diagnostics</div>
+      <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">
+        If the system "works" but bills keep climbing — we find efficiency killers and cycling problems.
+      </p>
+      <ul class="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-300">
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> airflow & filtration assessment</li>
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> overheating/overcooling checks</li>
+        <li class="flex gap-2"><span class="text-emerald-600 dark:text-emerald-300">✓</span> optimization recommendations</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section id="process" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+  <div class="rounded-3xl bg-white p-8 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+    <div class="grid gap-10 lg:grid-cols-12 lg:items-center">
+      <div class="lg:col-span-5">
+        <h2 class="text-3xl font-extrabold">How It Works</h2>
+        <p class="mt-2 text-slate-600 dark:text-slate-300">Simple, transparent, and efficient.</p>
+
+        <div class="mt-6 space-y-4">
+          <div class="flex gap-4">
+            <div class="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-500 text-white dark:bg-emerald-400 dark:text-slate-950 font-bold">1</div>
+            <div>
+              <div class="font-semibold">Tell us the symptoms</div>
+              <div class="text-sm text-slate-600 dark:text-slate-300">We ask quick questions to prepare the technician.</div>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-500 text-white dark:bg-emerald-400 dark:text-slate-950 font-bold">2</div>
+            <div>
+              <div class="font-semibold">On-site diagnostics</div>
+              <div class="text-sm text-slate-600 dark:text-slate-300">Electrical, airflow, drainage, and system checks.</div>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-500 text-white dark:bg-emerald-400 dark:text-slate-950 font-bold">3</div>
+            <div>
+              <div class="font-semibold">Repair & verification</div>
+              <div class="text-sm text-slate-600 dark:text-slate-300">We test performance and stabilize operation after the fix.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a
+            href="#quote"
+            class="rounded-full bg-slate-900 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
+          >
+            Schedule Service
+          </a>
+          <a
+            href="tel:+13238704790"
+            class="rounded-full bg-slate-200 px-6 py-3 text-center text-sm font-semibold text-slate-900 ring-1 ring-slate-300 hover:bg-slate-300 dark:bg-white/10 dark:text-white dark:ring-white/10 dark:hover:bg-white/15"
+          >
+            (323) 870-4790
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7">
+        <div class="overflow-hidden rounded-3xl ring-1 ring-slate-200 dark:ring-white/10">
+          <img
+            src="https://source.unsplash.com/1400x900/?technician,tools,repair"
+            alt="HVAC service"
+            class="h-full w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Areas -->
+<section id="areas" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+  <div class="flex flex-col gap-2">
+    <h2 class="text-3xl font-extrabold">Service Areas</h2>
+    <p class="text-slate-600 dark:text-slate-300">
+      Los Angeles and nearby areas. If you don't see your city listed — call us and we'll confirm availability.
+    </p>
+  </div>
+
+  <div class="mt-8 grid gap-6 lg:grid-cols-12">
+    <div class="lg:col-span-7 rounded-3xl bg-white p-6 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div class="rounded-2xl bg-slate-100 p-4 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+          <div class="font-semibold">Los Angeles</div>
+          <div class="mt-1 text-sm text-slate-600 dark:text-slate-300">Santa Monica, Westwood, Venice, Culver City, Brentwood…</div>
+        </div>
+        <div class="rounded-2xl bg-slate-100 p-4 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+          <div class="font-semibold">West Hollywood</div>
+          <div class="mt-1 text-sm text-slate-600 dark:text-slate-300">Beverly Hills, Hollywood, Mid-Wilshire, Fairfax…</div>
+        </div>
+        <div class="rounded-2xl bg-slate-100 p-4 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+          <div class="font-semibold">Pasadena</div>
+          <div class="mt-1 text-sm text-slate-600 dark:text-slate-300">Pasadena, Glendale, Arcadia, San Marino…</div>
+        </div>
+        <div class="rounded-2xl bg-slate-100 p-4 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+          <div class="font-semibold">Ventura / Orange County</div>
+          <div class="mt-1 text-sm text-slate-600 dark:text-slate-300">Thousand Oaks, Irvine, Anaheim, Newport Beach…</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lg:col-span-5 overflow-hidden rounded-3xl ring-1 ring-slate-200 dark:ring-white/10">
+      <img
+        src="https://source.unsplash.com/1000x900/?los-angeles,city,night"
+        alt="Los Angeles"
+        class="h-full w-full object-cover opacity-95"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+  <div class="rounded-3xl bg-white p-8 ring-1 ring-slate-200 shadow-sm dark:bg-white/5 dark:ring-white/10 dark:shadow-none">
+    <h2 class="text-3xl font-extrabold">FAQ</h2>
+
+    <div class="mt-6 grid gap-4 lg:grid-cols-2">
+      <details class="rounded-2xl bg-slate-100 p-5 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+        <summary class="cursor-pointer font-semibold">Why is my AC blowing warm air?</summary>
+        <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">
+          Common causes include low refrigerant due to a leak, dirty condenser coils, a failing capacitor, thermostat
+          settings, or restricted airflow (clogged filter, icing, or blower issues).
+        </p>
+      </details>
+
+      <details class="rounded-2xl bg-slate-100 p-5 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+        <summary class="cursor-pointer font-semibold">Is short cycling a big deal?</summary>
+        <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">
+          Yes. Frequent on/off cycling increases wear and can raise energy bills. It may be caused by sensors,
+          airflow problems, overheating, control issues, or refrigerant-related faults.
+        </p>
+      </details>
+
+      <details class="rounded-2xl bg-slate-100 p-5 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+        <summary class="cursor-pointer font-semibold">What's included in a maintenance tune-up?</summary>
+        <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">
+          We inspect key components, check electrical connections, clean accessible coils, clear/inspect drain lines,
+          test performance, and help prevent surprise breakdowns.
+        </p>
+      </details>
+
+      <details class="rounded-2xl bg-slate-100 p-5 ring-1 ring-slate-200 dark:bg-slate-950/40 dark:ring-white/10">
+        <summary class="cursor-pointer font-semibold">Do you work on mini-split systems?</summary>
+        <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">
+          Yes. We handle leaks, drainage issues, weak airflow, errors, noise, and general maintenance for indoor and
+          outdoor units.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+  <div class="relative overflow-hidden rounded-3xl ring-1 ring-slate-200 dark:ring-white/10">
+    <img
+      src="https://source.unsplash.com/1600x700/?air-conditioning,home"
+      alt="Comfortable home"
+      class="absolute inset-0 h-full w-full object-cover opacity-20 dark:opacity-30"
+      loading="lazy"
+    />
+    <div class="relative bg-gradient-to-r from-slate-100 via-slate-100/90 to-slate-100 dark:from-slate-950 dark:via-slate-950/80 dark:to-slate-950 p-10">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-extrabold">Need comfort restored today?</h2>
+        <p class="mt-2 text-slate-600 dark:text-slate-300">
+          Call now or submit a request — we'll confirm availability and get a technician scheduled.
+        </p>
+        <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+          <a
+            href="tel:+13238704790"
+            class="rounded-full bg-emerald-500 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-emerald-600 dark:bg-emerald-400 dark:text-slate-950 dark:hover:bg-emerald-300"
+          >
+            Call (323) 870-4790
+          </a>
+          <a
+            href="#quote"
+            class="rounded-full bg-slate-200 px-6 py-3 text-center text-sm font-semibold text-slate-900 ring-1 ring-slate-300 hover:bg-slate-300 dark:bg-white/10 dark:text-white dark:ring-white/10 dark:hover:bg-white/15"
+          >
+            Request Service
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-white/10">
+  <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <div class="font-bold">HVAC Repair</div>
+        <div class="mt-1 text-sm text-slate-500 dark:text-slate-400">Los Angeles • Heating • Cooling • Mini-Split</div>
+      </div>
+      <div class="flex flex-wrap gap-4 text-sm text-slate-600 dark:text-slate-300">
+        <a class="hover:text-slate-900 dark:hover:text-white" href="#services">Services</a>
+        <a class="hover:text-slate-900 dark:hover:text-white" href="#process">How It Works</a>
+        <a class="hover:text-slate-900 dark:hover:text-white" href="#areas">Service Areas</a>
+        <a class="hover:text-slate-900 dark:hover:text-white" href="#faq">FAQ</a>
+      </div>
+    </div>
+
+    <div class="mt-8 text-xs text-slate-500">
+      © <span id="year"></span> HVAC Repair. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Theme toggle functionality
+  const themeToggle = document.getElementById('theme-toggle');
+  const html = document.documentElement;
+
+  // Check for saved theme preference or use system preference
+  function getThemePreference() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      return savedTheme;
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  // Apply theme
+  function applyTheme(theme) {
+    if (theme === 'dark') {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
+    localStorage.setItem('theme', theme);
+  }
+
+  // Initialize theme
+  applyTheme(getThemePreference());
+
+  // Toggle theme on button click
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = html.classList.contains('dark') ? 'dark' : 'light';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    applyTheme(newTheme);
+  });
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      applyTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+</script>
+</body>
+</html>
